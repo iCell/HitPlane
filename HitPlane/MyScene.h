@@ -8,6 +8,11 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface MyScene : SKScene
+@interface MyScene : SKScene <SKPhysicsContactDelegate>
+
+@property (nonatomic, strong) SKSpriteNode *mainPlane;
+@property (nonatomic, strong) SKSpriteNode *backgroundNode;
+@property (nonatomic, strong) SKSpriteNode *tempBackgroundNode;
+@property (nonatomic, strong) SKSpriteNode *bulletNode;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80056281822054800AE4D1A /* planes.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E80056271822054800AE4D1A /* planes.atlas */; };
 		E8A8B796181EAF200006D9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A8B795181EAF200006D9BA /* Foundation.framework */; };
 		E8A8B798181EAF200006D9BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A8B797181EAF200006D9BA /* CoreGraphics.framework */; };
 		E8A8B79A181EAF200006D9BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A8B799181EAF200006D9BA /* UIKit.framework */; };
@@ -17,13 +18,13 @@
 		E8A8B7AB181EAF200006D9BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A8B7A9181EAF200006D9BA /* Main.storyboard */; };
 		E8A8B7AE181EAF200006D9BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8B7AD181EAF200006D9BA /* ViewController.m */; };
 		E8A8B7B1181EAF200006D9BA /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8B7B0181EAF200006D9BA /* MyScene.m */; };
-		E8A8B7B3181EAF200006D9BA /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A8B7B2181EAF200006D9BA /* Spaceship.png */; };
 		E8A8B7B5181EAF200006D9BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A8B7B4181EAF200006D9BA /* Images.xcassets */; };
 		E8A8B7BC181EAF200006D9BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A8B7BB181EAF200006D9BA /* XCTest.framework */; };
 		E8A8B7BD181EAF200006D9BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A8B795181EAF200006D9BA /* Foundation.framework */; };
 		E8A8B7BE181EAF200006D9BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A8B799181EAF200006D9BA /* UIKit.framework */; };
 		E8A8B7C6181EAF200006D9BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E8A8B7C4181EAF200006D9BA /* InfoPlist.strings */; };
 		E8A8B7C8181EAF200006D9BA /* HitPlaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A8B7C7181EAF200006D9BA /* HitPlaneTests.m */; };
+		E8AB925618213C4F002B8693 /* EnemyPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AB925518213C4F002B8693 /* EnemyPlane.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E80056271822054800AE4D1A /* planes.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = planes.atlas; sourceTree = "<group>"; };
 		E8A8B792181EAF200006D9BA /* HitPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A8B795181EAF200006D9BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E8A8B797181EAF200006D9BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,13 +55,14 @@
 		E8A8B7AD181EAF200006D9BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E8A8B7AF181EAF200006D9BA /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		E8A8B7B0181EAF200006D9BA /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		E8A8B7B2181EAF200006D9BA /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		E8A8B7B4181EAF200006D9BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E8A8B7BA181EAF200006D9BA /* HitPlaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitPlaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A8B7BB181EAF200006D9BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E8A8B7C3181EAF200006D9BA /* HitPlaneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HitPlaneTests-Info.plist"; sourceTree = "<group>"; };
 		E8A8B7C5181EAF200006D9BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E8A8B7C7181EAF200006D9BA /* HitPlaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitPlaneTests.m; sourceTree = "<group>"; };
+		E8AB925418213C4F002B8693 /* EnemyPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnemyPlane.h; sourceTree = "<group>"; };
+		E8AB925518213C4F002B8693 /* EnemyPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnemyPlane.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +131,8 @@
 				E8A8B7AD181EAF200006D9BA /* ViewController.m */,
 				E8A8B7AF181EAF200006D9BA /* MyScene.h */,
 				E8A8B7B0181EAF200006D9BA /* MyScene.m */,
-				E8A8B7B2181EAF200006D9BA /* Spaceship.png */,
+				E8AB925418213C4F002B8693 /* EnemyPlane.h */,
+				E8AB925518213C4F002B8693 /* EnemyPlane.m */,
 				E8A8B7B4181EAF200006D9BA /* Images.xcassets */,
 				E8A8B79E181EAF200006D9BA /* Supporting Files */,
 			);
@@ -138,6 +142,7 @@
 		E8A8B79E181EAF200006D9BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E80056271822054800AE4D1A /* planes.atlas */,
 				E8A8B79F181EAF200006D9BA /* HitPlane-Info.plist */,
 				E8A8B7A0181EAF200006D9BA /* InfoPlist.strings */,
 				E8A8B7A3181EAF200006D9BA /* main.m */,
@@ -242,7 +247,7 @@
 			files = (
 				E8A8B7A2181EAF200006D9BA /* InfoPlist.strings in Resources */,
 				E8A8B7B5181EAF200006D9BA /* Images.xcassets in Resources */,
-				E8A8B7B3181EAF200006D9BA /* Spaceship.png in Resources */,
+				E80056281822054800AE4D1A /* planes.atlas in Resources */,
 				E8A8B7AB181EAF200006D9BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +270,7 @@
 				E8A8B7B1181EAF200006D9BA /* MyScene.m in Sources */,
 				E8A8B7AE181EAF200006D9BA /* ViewController.m in Sources */,
 				E8A8B7A8181EAF200006D9BA /* AppDelegate.m in Sources */,
+				E8AB925618213C4F002B8693 /* EnemyPlane.m in Sources */,
 				E8A8B7A4181EAF200006D9BA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +482,7 @@
 				E8A8B7CD181EAF200006D9BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8A8B7CE181EAF200006D9BA /* Build configuration list for PBXNativeTarget "HitPlaneTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				E8A8B7D0181EAF200006D9BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
